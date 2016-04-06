@@ -12,6 +12,8 @@ our $scenario = {
     module_startup => 1,
     participants => [
         {module=>'DateTime::Format::Alami'},
+        {module=>'DateTime::Format::Alami::EN'},
+        {module=>'DateTime::Format::Alami::ID'},
         {module=>'DateTime::Format::Natural'},
         {module=>'DateTime'},
     ],

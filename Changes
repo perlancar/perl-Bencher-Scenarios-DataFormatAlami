@@ -1,5 +1,12 @@
 Revision history for Bencher-Scenarios-DateTimeFormatAlami
 
+0.002   2016-04-07 (PERLANCAR)
+
+	- Add scenario: DateTimeFormatAlami::Parsing.
+
+	- Add ::EN & ::ID to startup bench.
+
+
 0.001   2016-04-06 (PERLANCAR)
 
         - First release.

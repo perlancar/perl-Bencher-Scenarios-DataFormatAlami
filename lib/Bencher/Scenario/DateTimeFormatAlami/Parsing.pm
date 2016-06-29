@@ -9,6 +9,10 @@ use warnings;
 
 our $scenario = {
     summary => 'Benchmark parsing speed of DateTime::Format::Alami against some other modules',
+    modules => {
+        'DateTime::Format::Alami::EN' => {version => 0.11},
+        'DateTime::Format::Alami::ID' => {version => 0.11},
+    },
     participants => [
         {
             module=>'DateTime::Format::Alami::EN',

@@ -1,5 +1,10 @@
 Revision history for Bencher-Scenarios-DateTimeFormatAlami
 
+0.003   2016-06-29 (PERLANCAR)
+
+	- Add participant: DateTime::Format::Flexible.
+
+
 0.002   2016-04-07 (PERLANCAR)
 
 	- Add scenario: DateTimeFormatAlami::Parsing.

@@ -14,6 +14,7 @@ our $scenario = {
         {module=>'DateTime::Format::Alami'},
         {module=>'DateTime::Format::Alami::EN'},
         {module=>'DateTime::Format::Alami::ID'},
+        {module=>'DateTime::Format::Flexible'},
         {module=>'DateTime::Format::Natural'},
         {module=>'DateTime'},
     ],

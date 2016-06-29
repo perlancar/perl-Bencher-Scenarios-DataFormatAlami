@@ -30,6 +30,11 @@ our $scenario = {
             code_template => 'state $parser = DateTime::Format::Natural->new; $parser->parse_datetime(<text>)',
             tags => ['lang:en'],
         },
+        {
+            module=>'DateTime::Format::Flexible',
+            code_template => 'DateTime::Format::Flexible->parse_datetime(<text>)',
+            tags => ['lang:en'],
+        },
     ],
     datasets => [
         {args => {text => '18 feb'}},

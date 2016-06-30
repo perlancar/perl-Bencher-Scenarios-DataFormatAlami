@@ -10,8 +10,8 @@ use warnings;
 our $scenario = {
     summary => 'Benchmark parsing speed of DateTime::Format::Alami against some other modules',
     modules => {
-        'DateTime::Format::Alami::EN' => {version => 0.11},
-        'DateTime::Format::Alami::ID' => {version => 0.11},
+        'DateTime::Format::Alami::EN' => {version => 0.13},
+        'DateTime::Format::Alami::ID' => {version => 0.13},
     },
     participants => [
         {
@@ -43,6 +43,7 @@ our $scenario = {
     datasets => [
         {args => {text => '18 feb'}},
         {args => {text => '18 feb 2011'}},
+        {args => {text => '18 feb 2011 06:30:45'}},
         {args => {text => 'today'}, include_participant_tags => ['lang:en']},
         {args => {text => 'hari ini'}, include_participant_tags => ['lang:id']},
     ],

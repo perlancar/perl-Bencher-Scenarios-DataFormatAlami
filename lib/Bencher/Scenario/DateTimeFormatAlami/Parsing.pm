@@ -42,6 +42,7 @@ our $scenario = {
     ],
     datasets => [
         {args => {text => '18 feb'}},
+        {args => {text => '18 feb 2011'}},
         {args => {text => 'today'}, include_participant_tags => ['lang:en']},
         {args => {text => 'hari ini'}, include_participant_tags => ['lang:id']},
     ],

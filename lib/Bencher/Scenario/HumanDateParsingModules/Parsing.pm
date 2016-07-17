@@ -1,4 +1,4 @@
-package Bencher::Scenario::DateTimeFormatAlami::Parsing;
+package Bencher::Scenario:::HumanDateParsingModules:Parsing;
 
 # DATE
 # VERSION
@@ -8,7 +8,7 @@ use strict;
 use warnings;
 
 our $scenario = {
-    summary => 'Benchmark parsing speed of DateTime::Format::Alami against some other modules',
+    summary => 'Benchmark human date parsing modules e.g. DF:Natural, DF:Alami, etc.',
     modules => {
         'DateTime::Format::Alami::EN' => {version => 0.13},
         'DateTime::Format::Alami::ID' => {version => 0.13},

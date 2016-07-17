@@ -1,4 +1,4 @@
-package Bencher::Scenario::DateTimeFormatAlami::Startup;
+package Bencher::Scenario::HumanDateParsingModules::Startup;
 
 # DATE
 # VERSION
@@ -8,7 +8,7 @@ use strict;
 use warnings;
 
 our $scenario = {
-    summary => 'Benchmark startup of DateTime::Format::Alami against some other modules',
+    summary => 'Benchmark startup overhead of some human date parsing modules',
     module_startup => 1,
     participants => [
         {module=>'DateTime::Format::Alami::EN'},

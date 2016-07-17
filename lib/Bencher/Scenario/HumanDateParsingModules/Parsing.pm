@@ -1,4 +1,4 @@
-package Bencher::Scenario:::HumanDateParsingModules:Parsing;
+package Bencher::Scenario::HumanDateParsingModules::Parsing;
 
 # DATE
 # VERSION

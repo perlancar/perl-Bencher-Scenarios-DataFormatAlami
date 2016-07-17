@@ -1,6 +1,6 @@
 Revision history for Bencher-Scenarios-HumanDateParsingModules
 
-0.005   2016-07-16 (PERLANCAR) (unreleased)
+0.005   2016-07-16 (PERLANCAR)
 
         - Rename dist from Bencher-Scenarios-DateTimeFormatAlami to
           Bencher-Scenarios-HumanDateParsingModules.

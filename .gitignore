@@ -2,3 +2,4 @@ Bencher-Scenarios-HumanDateParsingModules-*
 .build
 *~
 nytprof*
+.DS_Store
